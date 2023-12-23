@@ -3,7 +3,7 @@ name: Shopify Theme Release
 on:
   push:
     branches:
-      - feature/release-automate
+      - main
 
 jobs:
   release:
