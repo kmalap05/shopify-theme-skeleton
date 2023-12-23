@@ -1,5 +1,27 @@
 {
+  "scripts": {
+    "generate-release-notes": "github-changelog-generator --token $GH_TOKEN",
+    "release": "semantic-release"
+  },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "github-changelog-generator": "^1.1.1",
+    "semantic-release": "^22.0.12",
     "tailwindcss": "^3.3.5"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
   }
 }
