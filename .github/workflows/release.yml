@@ -14,18 +14,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Get Previous Tag
-        id: get_previous_tag
-        run: |
-          PREVIOUS_TAG=$(git describe --tags --abbrev=0 HEAD^)
-          echo "::set-output name=previous_tag::$PREVIOUS_TAG"
-
-      - name: Generate Changelog
-        id: generate_changelog
-        run: |
-          CHANGELOG_CONTENT=$(git log --pretty=format:"- %s (%h)" ${PREVIOUS_TAG}...HEAD)
-          echo "::set-output name=changelog::$CHANGELOG_CONTENT"
-
       - name: Create Release
         id: create_release
         uses: "marvinpinto/action-automatic-releases@latest"
