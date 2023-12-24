@@ -1,10 +1,11 @@
-# .github/release.yml
 name: Release
 
 on:
   push:
     tags:
       - "v*"
+    branches:
+      - "main"
 
 jobs:
   release:
@@ -23,21 +24,3 @@ jobs:
           release_title: "What's Changed"
           changelog_file: "CHANGELOG.md"
           body: ${{ steps.generate_changelog.outputs.changelog }}
-# changelog:
-#   exclude:
-#     labels:
-#       - ignore-for-release
-#     authors:
-#       - octocat
-#   categories:
-#     - title: Breaking Changes 🛠
-#       labels:
-#         - Semver-Major
-#         - breaking-change
-#     - title: Exciting New Features 🎉
-#       labels:
-#         - Semver-Minor
-#         - enhancement
-#     - title: Other Changes
-#       labels:
-#         - "*"
