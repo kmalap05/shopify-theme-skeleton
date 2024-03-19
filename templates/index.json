@@ -110,12 +110,33 @@
             "card__block_ul": "flex space-x-4 sm:mt-0",
             "card__block_ul_links": "text-gray-500 hover:text-gray-900 dark:hover:text-white"
           }
+        },
+        "card_block_exexHt": {
+          "type": "card_block",
+          "settings": {
+            "card_link": "\/collections\/all?discount=SAVE25",
+            "card__block_title": "John Micheal",
+            "card__block_subtitle": "Web Developer and Designer",
+            "card__block_description": "Bonnie drives the technical strategy of the flowbite platform and brand.",
+            "card__block_facebook": "Enter Facebook link",
+            "card__block_twitter": "Enter Twitter link",
+            "card__block_github": "Enter github link",
+            "card__block_maindiv": "items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 m-6",
+            "card__block_style": "p-5",
+            "card_link_style": "items-center",
+            "card__block_title_style": "text-xl font-bold tracking-tight text-gray-900 dark:text-white",
+            "card__block_subtitle_style": "text-gray-500 dark:text-gray-400",
+            "card__block_description_style": "mt-3 mb-4 font-light text-gray-500 dark:text-gray-400",
+            "card__block_ul": "flex space-x-4 sm:mt-0",
+            "card__block_ul_links": "text-gray-500 hover:text-gray-900 dark:hover:text-white"
+          }
         }
       },
       "block_order": [
         "card_block_fAVicU",
         "card_block_8D7fRH",
-        "card_block_FAGgnm"
+        "card_block_FAGgnm",
+        "card_block_exexHt"
       ],
       "settings": {
         "section_title": "Our Team",
@@ -128,12 +149,86 @@
         "card__main__subtitle": "font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400",
         "card__block_div": "grid gap-8 mb-6 lg:mb-16 md:grid-cols-2"
       }
+    },
+    "dev_cards_9BbmUi": {
+      "type": "dev__cards",
+      "blocks": {
+        "card_block_h4nnJc": {
+          "type": "card_block",
+          "settings": {
+            "card_details": "Add card Details",
+            "card_subdetails": "Add card sub Details",
+            "card_button_text": "Read more",
+            "card_link": "\/collections\/all?discount=SAVE25"
+          }
+        },
+        "card_block_8qcUDM": {
+          "type": "card_block",
+          "settings": {
+            "card_details": "Add card Details",
+            "card_subdetails": "Add card sub Details",
+            "card_button_text": "Read more",
+            "card_link": "\/collections\/all?discount=SAVE25"
+          }
+        },
+        "card_block_DEqkrn": {
+          "type": "card_block",
+          "settings": {
+            "card_details": "Add card Details",
+            "card_subdetails": "Add card sub Details",
+            "card_button_text": "Read more",
+            "card_link": "\/collections\/all?discount=SAVE25"
+          }
+        },
+        "card_block_RggJPw": {
+          "type": "card_block",
+          "settings": {
+            "card_details": "Add card Details",
+            "card_subdetails": "Add card sub Details",
+            "card_button_text": "Read more",
+            "card_link": "\/collections\/all?discount=SAVE25"
+          }
+        },
+        "card_block_4hG9VF": {
+          "type": "card_block",
+          "settings": {
+            "card_details": "Add card Details",
+            "card_subdetails": "Add card sub Details",
+            "card_button_text": "Read more",
+            "card_link": "\/collections\/all?discount=SAVE25"
+          }
+        }
+      },
+      "block_order": [
+        "card_block_h4nnJc",
+        "card_block_8qcUDM",
+        "card_block_DEqkrn",
+        "card_block_RggJPw",
+        "card_block_4hG9VF"
+      ],
+      "settings": {
+        "section_title": "Our Special Offers",
+        "image_width": 400,
+        "image_height": 400,
+        "card_section_container_styles": "px-4 py-4",
+        "card_section_title_styles": "text-center text-2xl md:text-3xl font-bold text-gray-900",
+        "card_container_styles": "flex flex-wrap justify-center gap-4 px-4",
+        "card_wrapper_styles": "w-full md:w-1\/4",
+        "card_styles": "max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700",
+        "card_image_styles": "rounded-t-lg object-cover w-full h-[150px] md:h-[200px]",
+        "card_content_styles": "px-4 py-3 md:p-5",
+        "card_details_styles": "mb-2 text-lg md:text-xl font-semibold tracking-tight text-gray-900 dark:text-white",
+        "card_subdetails_styles": "text-sm md:text-base mb-3 font-normal text-gray-700 dark:text-gray-400",
+        "card_button_styles": "inline-flex items-center px-2 py-1 md:px-3 md:py-2 text-xs md:text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800",
+        "card_button_icon_styles": "rtl:rotate-180 w-3 h-3 ms-2 mt-1 md:w-3.5 md:h-3.5"
+      }
     }
   },
   "order": [
     "00f180cc-37f9-4ca3-b4c4-fda0760014c8",
     "1703136243197f9627",
     "dev_map_wBrcML",
-    "dev_card_our_team_iRXcz8"
+    "dev_card_our_team_iRXcz8",
+    "dev_cards_9BbmUi"
   ]
 }
