@@ -16,23 +16,124 @@
     },
     "1703136243197f9627": {
       "type": "apps",
+      "settings": {
+      }
+    },
+    "dev_map_wBrcML": {
+      "type": "dev__map",
+      "settings": {
+        "iframe_width": "100%",
+        "iframe_height": "100%",
+        "iframe_scrolling": "no",
+        "map_address_heading": "ADDRESS",
+        "map_address": "Rooigemlaan 532  9000 Ghent, Belgium",
+        "email_address_heading": "EMAIL",
+        "email_address": "example@email.com",
+        "phone_number_heading": "PHONE",
+        "phone_number": "123-456-7890",
+        "default_zoom": 14,
+        "default_map_type": "p",
+        "map-section_classes": "relative text-gray-600",
+        "map-container_classes": "absolute inset-0 bg-gray-300",
+        "map-frame_classes": "",
+        "info-container_classes": "mx-auto flex px-5 py-24",
+        "address-container_classes": "relative flex flex-wrap rounded bg-white py-6 shadow-md mt-[100px] max-md:py-2",
+        "address-info_classes": "px-6 lg:w-1\/2",
+        "address-heading_classes": "text-xs font-semibold tracking-widest text-gray-900",
+        "address-text_classes": "mt-1 flex max-md:font-light",
+        "details_classes": "mt-4 px-6 lg:mt-0 lg:w-1\/2 max-md:font-light max-md:mt-2",
+        "email-heading_classes": "text-xs font-semibold tracking-widest text-gray-900",
+        "email-info_classes": "leading-relaxed text-indigo-500",
+        "phone-heading_classes": "mt-4 text-xs font-semibold tracking-widest text-gray-900 max-md:mt-2",
+        "phone-info_classes": "leading-relaxed"
+      }
+    },
+    "dev_card_our_team_iRXcz8": {
+      "type": "dev__card-OurTeam",
       "blocks": {
-        "7c450dac-4942-4fac-a28c-0a5a89d540f9": {
-          "type": "shopify:\/\/apps\/powr-image-slider\/blocks\/app-block\/db02efbb-fd06-4a97-88f3-663cfa9effba",
+        "card_block_fAVicU": {
+          "type": "card_block",
           "settings": {
-            "app_id": "4d89ddd8_1703135906"
+            "card_link": "\/collections\/all?discount=SAVE25",
+            "card__block_title": "John Micheal",
+            "card__block_subtitle": "Web Developer and Designer",
+            "card__block_description": "Bonnie drives the technical strategy of the flowbite platform and brand.",
+            "card__block_facebook": "Enter Facebook link",
+            "card__block_twitter": "Enter Twitter link",
+            "card__block_github": "Enter github link",
+            "card__block_maindiv": "items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 m-6",
+            "card__block_style": "p-5",
+            "card_link_style": "items-center",
+            "card__block_title_style": "text-xl font-bold tracking-tight text-gray-900 dark:text-white",
+            "card__block_subtitle_style": "text-gray-500 dark:text-gray-400",
+            "card__block_description_style": "mt-3 mb-4 font-light text-gray-500 dark:text-gray-400",
+            "card__block_ul": "flex space-x-4 sm:mt-0",
+            "card__block_ul_links": "text-gray-500 hover:text-gray-900 dark:hover:text-white"
+          }
+        },
+        "card_block_8D7fRH": {
+          "type": "card_block",
+          "settings": {
+            "card_link": "\/collections\/all?discount=SAVE25",
+            "card__block_title": "John Micheal",
+            "card__block_subtitle": "Web Developer and Designer",
+            "card__block_description": "Bonnie drives the technical strategy of the flowbite platform and brand.",
+            "card__block_facebook": "Enter Facebook link",
+            "card__block_twitter": "Enter Twitter link",
+            "card__block_github": "Enter github link",
+            "card__block_maindiv": "items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 m-6",
+            "card__block_style": "p-5",
+            "card_link_style": "items-center",
+            "card__block_title_style": "text-xl font-bold tracking-tight text-gray-900 dark:text-white",
+            "card__block_subtitle_style": "text-gray-500 dark:text-gray-400",
+            "card__block_description_style": "mt-3 mb-4 font-light text-gray-500 dark:text-gray-400",
+            "card__block_ul": "flex space-x-4 sm:mt-0",
+            "card__block_ul_links": "text-gray-500 hover:text-gray-900 dark:hover:text-white"
+          }
+        },
+        "card_block_FAGgnm": {
+          "type": "card_block",
+          "settings": {
+            "card_link": "\/collections\/all?discount=SAVE25",
+            "card__block_title": "John Micheal",
+            "card__block_subtitle": "Web Developer and Designer",
+            "card__block_description": "Bonnie drives the technical strategy of the flowbite platform and brand.",
+            "card__block_facebook": "Enter Facebook link",
+            "card__block_twitter": "Enter Twitter link",
+            "card__block_github": "Enter github link",
+            "card__block_maindiv": "items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 m-6",
+            "card__block_style": "p-5",
+            "card_link_style": "items-center",
+            "card__block_title_style": "text-xl font-bold tracking-tight text-gray-900 dark:text-white",
+            "card__block_subtitle_style": "text-gray-500 dark:text-gray-400",
+            "card__block_description_style": "mt-3 mb-4 font-light text-gray-500 dark:text-gray-400",
+            "card__block_ul": "flex space-x-4 sm:mt-0",
+            "card__block_ul_links": "text-gray-500 hover:text-gray-900 dark:hover:text-white"
           }
         }
       },
       "block_order": [
-        "7c450dac-4942-4fac-a28c-0a5a89d540f9"
+        "card_block_fAVicU",
+        "card_block_8D7fRH",
+        "card_block_FAGgnm"
       ],
       "settings": {
+        "section_title": "Our Team",
+        "section_subtitle": "Have a look at our team!!",
+        "image_width": 400,
+        "image_height": 200,
+        "card__main": "bg-gray-900 py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6",
+        "card__main__div": "mx-auto max-w-screen-sm text-center mb-8 lg:mb-16",
+        "card__main__title": "mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white",
+        "card__main__subtitle": "font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400",
+        "card__block_div": "grid gap-8 mb-6 lg:mb-16 md:grid-cols-2"
       }
     }
   },
   "order": [
     "00f180cc-37f9-4ca3-b4c4-fda0760014c8",
-    "1703136243197f9627"
+    "1703136243197f9627",
+    "dev_map_wBrcML",
+    "dev_card_our_team_iRXcz8"
   ]
 }
