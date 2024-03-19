@@ -2631,6 +2631,10 @@ video {
     margin-top: 0px;
   }
 
+  .lg\:w-1 {
+    width: 0.25rem;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
